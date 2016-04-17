@@ -10,4 +10,7 @@
 
 @interface PTXThread : NSThread
 
+- (void)dispatchAsync:(void(^)())block;
+- (void)dispatchSync:(void(^)())block;
+
 @end

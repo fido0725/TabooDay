@@ -14,6 +14,14 @@
 		31095ACB1CB94EA600F91D6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31095ACA1CB94EA600F91D6D /* Assets.xcassets */; };
 		31095ACE1CB94EA600F91D6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31095ACC1CB94EA600F91D6D /* LaunchScreen.storyboard */; };
 		31095AD91CB94EA600F91D6D /* PtxTabooDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31095AD81CB94EA600F91D6D /* PtxTabooDayTests.m */; };
+		31095AE51CB94F9C00F91D6D /* PtxCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 31095AE41CB94F9C00F91D6D /* PtxCalendarManager.m */; };
+		31095AE91CB9568000F91D6D /* PTXDayComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 31095AE81CB9568000F91D6D /* PTXDayComponent.m */; };
+		31095AED1CBA086C00F91D6D /* PTXLunarComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 31095AEC1CBA086C00F91D6D /* PTXLunarComponent.m */; };
+		31095AF11CBA8BFB00F91D6D /* PTXThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 31095AF01CBA8BFB00F91D6D /* PTXThread.m */; };
+		31095AF91CBB1F7600F91D6D /* GLDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 31095AF81CBB1F7600F91D6D /* GLDateUtils.m */; };
+		31095AFC1CC3E3EB00F91D6D /* PTXHoliday.m in Sources */ = {isa = PBXBuildFile; fileRef = 31095AFB1CC3E3EB00F91D6D /* PTXHoliday.m */; };
+		31095AFF1CC3E56800F91D6D /* PTXTabooModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31095AFE1CC3E56800F91D6D /* PTXTabooModel.m */; };
+		31095B021CC3E9A700F91D6D /* PTXDayExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 31095B011CC3E9A700F91D6D /* PTXDayExtractor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,22 @@
 		31095AD41CB94EA600F91D6D /* PtxTabooDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PtxTabooDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31095AD81CB94EA600F91D6D /* PtxTabooDayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PtxTabooDayTests.m; sourceTree = "<group>"; };
 		31095ADA1CB94EA600F91D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31095AE31CB94F9C00F91D6D /* PtxCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PtxCalendarManager.h; sourceTree = "<group>"; };
+		31095AE41CB94F9C00F91D6D /* PtxCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PtxCalendarManager.m; sourceTree = "<group>"; };
+		31095AE71CB9568000F91D6D /* PTXDayComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTXDayComponent.h; sourceTree = "<group>"; };
+		31095AE81CB9568000F91D6D /* PTXDayComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTXDayComponent.m; sourceTree = "<group>"; };
+		31095AEB1CBA086C00F91D6D /* PTXLunarComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTXLunarComponent.h; sourceTree = "<group>"; };
+		31095AEC1CBA086C00F91D6D /* PTXLunarComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTXLunarComponent.m; sourceTree = "<group>"; };
+		31095AEF1CBA8BFB00F91D6D /* PTXThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTXThread.h; sourceTree = "<group>"; };
+		31095AF01CBA8BFB00F91D6D /* PTXThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTXThread.m; sourceTree = "<group>"; };
+		31095AF71CBB1F7600F91D6D /* GLDateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLDateUtils.h; sourceTree = "<group>"; };
+		31095AF81CBB1F7600F91D6D /* GLDateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLDateUtils.m; sourceTree = "<group>"; };
+		31095AFA1CC3E3EB00F91D6D /* PTXHoliday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTXHoliday.h; sourceTree = "<group>"; };
+		31095AFB1CC3E3EB00F91D6D /* PTXHoliday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTXHoliday.m; sourceTree = "<group>"; };
+		31095AFD1CC3E56800F91D6D /* PTXTabooModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTXTabooModel.h; sourceTree = "<group>"; };
+		31095AFE1CC3E56800F91D6D /* PTXTabooModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTXTabooModel.m; sourceTree = "<group>"; };
+		31095B001CC3E9A700F91D6D /* PTXDayExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTXDayExtractor.h; sourceTree = "<group>"; };
+		31095B011CC3E9A700F91D6D /* PTXDayExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTXDayExtractor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +114,7 @@
 				31095ACC1CB94EA600F91D6D /* LaunchScreen.storyboard */,
 				31095ACF1CB94EA600F91D6D /* Info.plist */,
 				31095ABE1CB94EA600F91D6D /* Supporting Files */,
+				31095AE61CB94FB400F91D6D /* CalendarManager */,
 			);
 			path = PtxTabooDay;
 			sourceTree = "<group>";
@@ -109,6 +134,53 @@
 				31095ADA1CB94EA600F91D6D /* Info.plist */,
 			);
 			path = PtxTabooDayTests;
+			sourceTree = "<group>";
+		};
+		31095AE61CB94FB400F91D6D /* CalendarManager */ = {
+			isa = PBXGroup;
+			children = (
+				31095AE31CB94F9C00F91D6D /* PtxCalendarManager.h */,
+				31095AE41CB94F9C00F91D6D /* PtxCalendarManager.m */,
+				31095AF71CBB1F7600F91D6D /* GLDateUtils.h */,
+				31095AF81CBB1F7600F91D6D /* GLDateUtils.m */,
+				31095AF21CBA8C0800F91D6D /* Private */,
+				31095AEE1CBA0B7200F91D6D /* Model */,
+			);
+			name = CalendarManager;
+			sourceTree = "<group>";
+		};
+		31095AEE1CBA0B7200F91D6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31095AE71CB9568000F91D6D /* PTXDayComponent.h */,
+				31095AE81CB9568000F91D6D /* PTXDayComponent.m */,
+				31095AFA1CC3E3EB00F91D6D /* PTXHoliday.h */,
+				31095AFB1CC3E3EB00F91D6D /* PTXHoliday.m */,
+				31095AEB1CBA086C00F91D6D /* PTXLunarComponent.h */,
+				31095AEC1CBA086C00F91D6D /* PTXLunarComponent.m */,
+				31095AFD1CC3E56800F91D6D /* PTXTabooModel.h */,
+				31095AFE1CC3E56800F91D6D /* PTXTabooModel.m */,
+				31095B001CC3E9A700F91D6D /* PTXDayExtractor.h */,
+				31095B011CC3E9A700F91D6D /* PTXDayExtractor.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		31095AF21CBA8C0800F91D6D /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				31095AF31CBA8EDD00F91D6D /* Thread */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		31095AF31CBA8EDD00F91D6D /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				31095AEF1CBA8BFB00F91D6D /* PTXThread.h */,
+				31095AF01CBA8BFB00F91D6D /* PTXThread.m */,
+			);
+			name = Thread;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,9 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31095AE91CB9568000F91D6D /* PTXDayComponent.m in Sources */,
+				31095AE51CB94F9C00F91D6D /* PtxCalendarManager.m in Sources */,
 				31095AC61CB94EA600F91D6D /* ViewController.m in Sources */,
 				31095AC31CB94EA600F91D6D /* AppDelegate.m in Sources */,
 				31095AC01CB94EA600F91D6D /* main.m in Sources */,
+				31095AF91CBB1F7600F91D6D /* GLDateUtils.m in Sources */,
+				31095B021CC3E9A700F91D6D /* PTXDayExtractor.m in Sources */,
+				31095AF11CBA8BFB00F91D6D /* PTXThread.m in Sources */,
+				31095AFC1CC3E3EB00F91D6D /* PTXHoliday.m in Sources */,
+				31095AFF1CC3E56800F91D6D /* PTXTabooModel.m in Sources */,
+				31095AED1CBA086C00F91D6D /* PTXLunarComponent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

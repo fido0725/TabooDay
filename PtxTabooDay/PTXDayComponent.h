@@ -7,7 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PTXHoliday.h"
+#import "PTXLunarComponent.h"
 
 @interface PTXDayComponent : NSObject
+
+@property (nonatomic,assign) NSUInteger year;
+@property (nonatomic,assign) NSUInteger month;
+@property (nonatomic,assign) NSUInteger day;
+@property (nonatomic,assign) NSUInteger week;
+@property (nonatomic,assign) NSUInteger weekDay;
+
+@property (nonatomic,strong) PTXHoliday *holiday;
+
+@property (nonatomic,strong) PTXLunarComponent *lunarDay;
 
 @end

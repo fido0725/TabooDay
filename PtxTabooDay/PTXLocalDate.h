@@ -9,5 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @protocol PTXLocalDate <NSObject>
+@optional
+@property (nonatomic,strong,readonly) NSString *localYear;
+@property (nonatomic,strong,readonly) NSString *localMonth;
+@property (nonatomic,strong,readonly) NSString *localDay;
+
+@property (nonatomic,strong,readonly) NSString *localDateName;
 
 @end
