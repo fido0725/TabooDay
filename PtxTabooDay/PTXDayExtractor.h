@@ -14,6 +14,8 @@
 
 @interface PTXDayExtractor : NSObject
 
+-(instancetype)initWithDate:(NSDate *)date;
+
 -(PTXHoliday *)holiday;
 
 -(PTXTabooModel *)tabooModel;
