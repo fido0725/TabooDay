@@ -23,6 +23,7 @@
 		31095AFF1CC3E56800F91D6D /* PTXTabooModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31095AFE1CC3E56800F91D6D /* PTXTabooModel.m */; };
 		31095B021CC3E9A700F91D6D /* PTXDayExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 31095B011CC3E9A700F91D6D /* PTXDayExtractor.m */; };
 		31095B051CC536FD00F91D6D /* LunarCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 31095B041CC536FD00F91D6D /* LunarCalendar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		31095B091CC6808600F91D6D /* PTXDayBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 31095B081CC6808600F91D6D /* PTXDayBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		31095B011CC3E9A700F91D6D /* PTXDayExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTXDayExtractor.m; sourceTree = "<group>"; };
 		31095B031CC536FD00F91D6D /* LunarCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunarCalendar.h; sourceTree = "<group>"; };
 		31095B041CC536FD00F91D6D /* LunarCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunarCalendar.m; sourceTree = "<group>"; };
+		31095B071CC6808600F91D6D /* PTXDayBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTXDayBuilder.h; sourceTree = "<group>"; };
+		31095B081CC6808600F91D6D /* PTXDayBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTXDayBuilder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,10 +147,7 @@
 			children = (
 				31095AE31CB94F9C00F91D6D /* PtxCalendarManager.h */,
 				31095AE41CB94F9C00F91D6D /* PtxCalendarManager.m */,
-				31095AF71CBB1F7600F91D6D /* GLDateUtils.h */,
-				31095AF81CBB1F7600F91D6D /* GLDateUtils.m */,
-				31095B031CC536FD00F91D6D /* LunarCalendar.h */,
-				31095B041CC536FD00F91D6D /* LunarCalendar.m */,
+				31095B061CC53F8700F91D6D /* ThirdLib */,
 				31095AF21CBA8C0800F91D6D /* Private */,
 				31095AEE1CBA0B7200F91D6D /* Model */,
 			);
@@ -167,6 +167,8 @@
 				31095AFE1CC3E56800F91D6D /* PTXTabooModel.m */,
 				31095B001CC3E9A700F91D6D /* PTXDayExtractor.h */,
 				31095B011CC3E9A700F91D6D /* PTXDayExtractor.m */,
+				31095B071CC6808600F91D6D /* PTXDayBuilder.h */,
+				31095B081CC6808600F91D6D /* PTXDayBuilder.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -186,6 +188,17 @@
 				31095AF01CBA8BFB00F91D6D /* PTXThread.m */,
 			);
 			name = Thread;
+			sourceTree = "<group>";
+		};
+		31095B061CC53F8700F91D6D /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+				31095AF71CBB1F7600F91D6D /* GLDateUtils.h */,
+				31095AF81CBB1F7600F91D6D /* GLDateUtils.m */,
+				31095B031CC536FD00F91D6D /* LunarCalendar.h */,
+				31095B041CC536FD00F91D6D /* LunarCalendar.m */,
+			);
+			name = ThirdLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +307,7 @@
 				31095AC31CB94EA600F91D6D /* AppDelegate.m in Sources */,
 				31095AC01CB94EA600F91D6D /* main.m in Sources */,
 				31095AF91CBB1F7600F91D6D /* GLDateUtils.m in Sources */,
+				31095B091CC6808600F91D6D /* PTXDayBuilder.m in Sources */,
 				31095B051CC536FD00F91D6D /* LunarCalendar.m in Sources */,
 				31095B021CC3E9A700F91D6D /* PTXDayExtractor.m in Sources */,
 				31095AF11CBA8BFB00F91D6D /* PTXThread.m in Sources */,

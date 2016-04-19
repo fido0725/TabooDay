@@ -11,8 +11,9 @@
 @class PTXHoliday;
 @class PTXLunarComponent;
 @class PTXTabooModel;
-
+@class LunarCalendar;
 @interface PTXDayExtractor : NSObject
+@property (nonatomic,strong,readonly) NSDate *dateRef;
 
 -(instancetype)initWithDate:(NSDate *)date;
 

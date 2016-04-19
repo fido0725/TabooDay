@@ -10,4 +10,15 @@
 
 @implementation PTXTabooModel
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _isTaboo = YES;
+        _tabooType = TabooTypeSex;
+        _reason = @"某神值....";
+        _consequences = @"减寿";
+    }
+    return self;
+}
 @end

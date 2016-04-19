@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PtxCalendarManager.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    PtxCalendarManager *ptxCM = [[PtxCalendarManager alloc]init];
+    [ptxCM loadDaysDistance:2 fromDate:[NSDate date] completion:^(NSArray<PTXDayComponent *> * _Nullable dayComponents, NSError * _Nullable error) {
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
