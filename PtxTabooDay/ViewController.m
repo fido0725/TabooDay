@@ -18,9 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     PtxCalendarManager *ptxCM = [[PtxCalendarManager alloc]init];
-    [ptxCM loadDaysDistance:2 fromDate:[NSDate date] completion:^(NSArray<PTXDayComponent *> * _Nullable dayComponents, NSError * _Nullable error) {
+    [ptxCM loadDaysDistance:1000 fromDate:[NSDate date] completion:^(NSArray<PTXDayComponent *> * _Nullable dayComponents, NSError * _Nullable error) {
         
     }];
+    
 }
 
 - (void)didReceiveMemoryWarning {
